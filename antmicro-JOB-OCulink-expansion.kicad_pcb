@@ -223,7 +223,7 @@
 	(footprint "antmicro-footprints:OSHW-Logo_5.7x6mm_Mask"
 		(layer "F.Cu")
 		(uuid "67fd379a-67e5-4a8c-96d7-ae9f3e590db8")
-		(at 197.81 102.951)
+		(at 197.937 101.808)
 		(descr "Open Source Hardware Logo")
 		(tags "Logo OSHW")
 		(property "Reference" "REF**"
@@ -769,7 +769,7 @@
 	(footprint "antmicro-footprints:OSHW-Logo_5.7x6mm_Copper"
 		(layer "F.Cu")
 		(uuid "7898a758-1564-43b4-b99b-74c2196b6874")
-		(at 197.81 102.951)
+		(at 197.937 101.808)
 		(descr "Open Source Hardware Logo")
 		(tags "Logo OSHW")
 		(property "Reference" "REF**"
@@ -1315,7 +1315,7 @@
 	(footprint "antmicro-footprints:antmicro-logo_scaled_12mm"
 		(layer "F.Cu")
 		(uuid "790c6c80-863d-48f2-a8e6-751979a2085f")
-		(at 201.366 110.444)
+		(at 201.493 109.301)
 		(property "Reference" "REF**"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
@@ -61202,7 +61202,7 @@
 		(uuid "5536c80d-d902-4be0-b040-df7f0ee5eac4")
 	)
 	(gr_text "JOB OCuLink Exapnsion\nRev. ${REVISION}   3/2025"
-		(at 199.08 112.095 0)
+		(at 199.207 110.952 0)
 		(layer "F.Cu")
 		(uuid "6ec04742-4f68-4782-952e-bb20cff68bf5")
 		(effects
@@ -61213,8 +61213,20 @@
 			(justify left)
 		)
 	)
+	(gr_text "PCB SHA ########"
+		(at 208.224 112.476 0)
+		(layer "B.SilkS")
+		(uuid "3bb90c6f-3809-4d21-8f7d-21429003b2c2")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "JOB OCuLink Exapnsion\nRev. ${REVISION}   3/2025"
-		(at 199.08 112.095 0)
+		(at 199.207 110.952 0)
 		(layer "F.Mask")
 		(uuid "7141fb58-5237-4f9c-9167-bf7432f28950")
 		(effects
