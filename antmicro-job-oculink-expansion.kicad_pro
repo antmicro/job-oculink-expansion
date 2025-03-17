@@ -58,9 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|194082000|97793000|67fd379a-67e5-4a8c-96d7-ae9f3e590db8|7898a758-1564-43b4-b99b-74c2196b6874"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -447,7 +445,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "antmicro-JOB-OCulink-expansion.kicad_pro",
+    "filename": "antmicro-job-oculink-expansion.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -474,7 +472,7 @@
         "clearance": 0.125,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.17,
+        "diff_pair_width": 0.35,
         "line_style": 0,
         "microvia_diameter": 0.45,
         "microvia_drill": 0.1,
@@ -515,9 +513,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "antmicro-JOB-OCulink-expansion.step",
+      "step": "antmicro-job-oculink-expansion.step",
       "svg": "",
-      "vrml": "antmicro-JOB-OCulink-expansion.wrl"
+      "vrml": "antmicro-job-oculink-expansion.wrl"
     },
     "page_layout_descr_file": ""
   },

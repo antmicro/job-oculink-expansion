@@ -10,8 +10,8 @@
 (rule "(pcie_outer"
 	(layer outer)
 	(condition "(A.NetClass == '85Ohm-diff_PCIE')")
-	(constraint track_width (opt 0.155mm))
-	(constraint diff_pair_gap  (opt 0.144mm))
+	(constraint track_width (opt 0.32mm))
+	(constraint diff_pair_gap  (opt 0.15mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 

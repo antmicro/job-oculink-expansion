@@ -9050,7 +9050,7 @@
 			(uuid "bbd3563b-fe74-444c-b874-4486f12ea32f")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR010")
 					(unit 1)
@@ -9144,7 +9144,7 @@
 			(uuid "1290f49f-81d6-4cd7-9d50-67305dee2a40")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR02")
 					(unit 1)
@@ -9464,7 +9464,7 @@
 			(uuid "3b6e021e-7b8c-4e99-b095-cc6f09cc4953")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#FLG02")
 					(unit 1)
@@ -10155,7 +10155,7 @@
 			(uuid "77c7967c-785c-4061-ac49-f775ecd8ef98")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#FLG03")
 					(unit 1)
@@ -10970,7 +10970,7 @@
 			(uuid "2bf835f3-32d2-492a-a63e-a5e95de2e0b7")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "C3")
 					(unit 1)
@@ -11593,7 +11593,7 @@
 			(uuid "c4561741-3328-4c73-ad58-22fb1200f3a1")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR06")
 					(unit 1)
@@ -11912,7 +11912,7 @@
 			(uuid "58508f77-97ef-4689-890d-f0e508dd1d26")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR09")
 					(unit 1)
@@ -12158,7 +12158,7 @@
 			(uuid "2e46dd5f-44be-426d-9de3-7cc956137d06")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "C2")
 					(unit 1)
@@ -12224,7 +12224,7 @@
 			(uuid "9adae6ca-13ab-42d9-8a0c-c0b1dc445bc8")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR07")
 					(unit 1)
@@ -12318,7 +12318,7 @@
 			(uuid "0aa67cb5-b84c-4bbe-af36-5a8ba31e59dc")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR08")
 					(unit 1)
@@ -13175,7 +13175,7 @@
 			(uuid "7994b808-7a68-420b-92f4-d142a99b3693")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR03")
 					(unit 1)
@@ -13269,7 +13269,7 @@
 			(uuid "96887ef7-5f87-4ea2-8a0c-155558f60eed")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR01")
 					(unit 1)
@@ -13588,7 +13588,7 @@
 			(uuid "be5075c8-9edb-4601-98a5-823b18509e01")
 		)
 		(instances
-			(project "antmicro-JOB-OCulink-expansion"
+			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "TP1")
 					(unit 1)
