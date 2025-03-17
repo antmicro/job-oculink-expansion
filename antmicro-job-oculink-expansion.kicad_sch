@@ -4868,16 +4868,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 201.93 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f66c165-df43-4cb4-b9c7-12c0e12a0e56")
-	)
-	(wire
-		(pts
 			(xy 67.31 49.53) (xy 67.31 41.91)
 		)
 		(stroke
@@ -5238,16 +5228,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 78.74) (xy 201.93 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5db5c5d6-97bb-4885-a47f-fe4906785211")
-	)
-	(wire
-		(pts
 			(xy 55.88 46.99) (xy 69.85 46.99)
 		)
 		(stroke
@@ -5445,6 +5425,16 @@
 			(type default)
 		)
 		(uuid "7e6bc419-7f98-41d1-bd61-5026ec9cc514")
+	)
+	(wire
+		(pts
+			(xy 185.42 81.28) (xy 201.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed36f17-a20e-437d-a86c-8cbb7d53d2db")
 	)
 	(wire
 		(pts
@@ -5725,6 +5715,16 @@
 			(type default)
 		)
 		(uuid "bd16d552-5130-4dc7-93cd-7dd998e26cd7")
+	)
+	(wire
+		(pts
+			(xy 185.42 78.74) (xy 201.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9ca4d5-b4cd-4ec8-97dc-a2bdd3cba821")
 	)
 	(wire
 		(pts
@@ -8166,28 +8166,6 @@
 		)
 		(uuid "3ba146a8-3a40-4cae-8046-5d74d68aaa9e")
 	)
-	(label "JOB_GPIO07"
-		(at 185.42 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54e3410e-f683-4a39-a0d5-8d5c2991b9d5")
-	)
-	(label "JOB_GPIO09"
-		(at 185.42 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57945db6-74b4-40b9-be99-a40a54e18b13")
-	)
 	(label "PCIE_RX0-"
 		(at 128.27 73.66 0)
 		(fields_autoplaced yes)
@@ -8220,6 +8198,17 @@
 			(justify left bottom)
 		)
 		(uuid "635537b3-6410-4474-b205-3f8281ed652d")
+	)
+	(label "JOB_GPIO07"
+		(at 185.42 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e5a4dc2-62cc-40a6-9873-db932dda786c")
 	)
 	(label "PCIE_RX1+"
 		(at 95.25 41.91 180)
@@ -8319,6 +8308,17 @@
 			(justify right bottom)
 		)
 		(uuid "b02470f8-8748-4e3a-ad1f-6b82fa32a7ac")
+	)
+	(label "JOB_GPIO09"
+		(at 185.42 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b123343b-8bfd-4e03-a05c-12e8543b2ca3")
 	)
 	(label "PCIE_TX0-"
 		(at 128.27 104.14 0)
