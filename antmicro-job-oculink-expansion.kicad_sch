@@ -2274,6 +2274,134 @@
 				)
 			)
 		)
+		(symbol "antmicroMechanicalParts:MP_Pad3.3mm_Drill2.5mm"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "MP"
+				(at 12.7 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MP_Pad3.3mm_Drill2.5mm"
+				(at 12.7 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:MP_Pad3.3mm_Drill2.5mm"
+				(at 12.7 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.84 -15.57 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB mounting point template"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 12.7 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 12.7 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MECHANICAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MP_Pad3.3mm_Drill2.5mm_1_1"
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "antmicroPciConnectors:OCuLink_x4_Amphenol_G14A421211112HR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5228,6 +5356,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 110.49) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591be9d1-32b7-47d2-8eeb-982a60a5fab2")
+	)
+	(wire
+		(pts
 			(xy 55.88 46.99) (xy 69.85 46.99)
 		)
 		(stroke
@@ -6025,6 +6163,16 @@
 			(type default)
 		)
 		(uuid "f4821cbc-f4be-4bd9-b090-a9d6ca8400eb")
+	)
+	(wire
+		(pts
+			(xy 213.36 113.03) (xy 213.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f562c53a-c0ce-44d2-81ee-08fe8505e3b2")
 	)
 	(wire
 		(pts
@@ -10905,6 +11053,101 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 213.36 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "742dfeeb-f324-4053-ba61-32d35be70a65")
+		(property "Reference" "#PWR020"
+			(at 213.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 204.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 204.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87496eef-4268-4042-b0a8-193efa6c1a7b")
+		)
+		(instances
+			(project "antmicro-job-oculink-expansion"
+				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+1V8")
 		(at 54.61 124.46 0)
 		(unit 1)
@@ -12953,6 +13196,98 @@
 			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:MP_Pad3.3mm_Drill2.5mm")
+		(at 209.55 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd497d0c-40e2-4432-916a-572dafb71928")
+		(property "Reference" "MP1"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MP_Pad3.3mm_Drill2.5mm"
+			(at 204.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:MP_Pad3.3mm_Drill2.5mm"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 192.71 126.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB mounting point template"
+			(at 209.55 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "087316ea-a785-4cf8-be4a-b067b4f270d3")
+		)
+		(instances
+			(project ""
+				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
+					(reference "MP1")
 					(unit 1)
 				)
 			)
