@@ -59,7 +59,12 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|194082000|97793000|67fd379a-67e5-4a8c-96d7-ae9f3e590db8|7898a758-1564-43b4-b99b-74c2196b6874"
+        "courtyards_overlap|197705000|105887000|acc73a80-9e24-46c9-a3e4-a724e280f3a8|e9095c92-c71b-4371-9454-86d1a9905c5c",
+        "courtyards_overlap|206187000|100460000|fee007dd-0216-4f77-a317-c40198633c12|b65d4f68-7c64-4749-ab33-9c4b5498eda0",
+        "courtyards_overlap|211404489|105887000|b65d4f68-7c64-4749-ab33-9c4b5498eda0|acc73a80-9e24-46c9-a3e4-a724e280f3a8",
+        "courtyards_overlap|211404489|105887000|b65d4f68-7c64-4749-ab33-9c4b5498eda0|e9095c92-c71b-4371-9454-86d1a9905c5c",
+        "courtyards_overlap|211404489|105887000|fee007dd-0216-4f77-a317-c40198633c12|acc73a80-9e24-46c9-a3e4-a724e280f3a8",
+        "courtyards_overlap|211404489|105887000|fee007dd-0216-4f77-a317-c40198633c12|e9095c92-c71b-4371-9454-86d1a9905c5c"
       ],
       "meta": {
         "version": 2
@@ -181,7 +186,8 @@
       ],
       "track_widths": [
         0.0,
-        0.25
+        0.25,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -465,8 +471,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
@@ -482,8 +488,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6
       }
     ],
@@ -495,11 +501,11 @@
     "netclass_patterns": [
       {
         "netclass": "85Ohm-diff_PCIE",
-        "pattern": "*PET*"
+        "pattern": "*TX*"
       },
       {
         "netclass": "85Ohm-diff_PCIE",
-        "pattern": "*PER*"
+        "pattern": "*RX*"
       },
       {
         "netclass": "85Ohm-diff_PCIE",

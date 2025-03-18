@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Jetson Orin Baseboard OCuLink Expansion")
-		(date "2025-03-14")
+		(date "2025-03-18")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
@@ -4778,16 +4778,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 78.74) (xy 229.87 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e35715b-4ad2-4457-9c0a-0a8e77f62395")
-	)
-	(wire
-		(pts
 			(xy 64.77 133.35) (xy 69.85 133.35)
 		)
 		(stroke
@@ -4855,6 +4845,16 @@
 			(type default)
 		)
 		(uuid "19695b5f-cce6-4da0-ac0b-c53e5445b3ac")
+	)
+	(wire
+		(pts
+			(xy 245.11 81.28) (xy 229.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0baf34-5a1d-4594-b066-9e93e30e7e68")
 	)
 	(wire
 		(pts
@@ -5668,16 +5668,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 81.28) (xy 229.87 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0274a63-eba3-4279-97bd-313074179209")
-	)
-	(wire
-		(pts
 			(xy 185.42 35.56) (xy 185.42 38.1)
 		)
 		(stroke
@@ -5975,6 +5965,16 @@
 			(type default)
 		)
 		(uuid "edc8e011-8c96-4e89-873e-c7be67ab61e2")
+	)
+	(wire
+		(pts
+			(xy 245.11 78.74) (xy 229.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edee806c-3a58-42f7-82b1-58432781aa94")
 	)
 	(wire
 		(pts
@@ -8111,6 +8111,17 @@
 		)
 		(uuid "0103085a-564a-4f3a-8147-74186c0f4c54")
 	)
+	(label "~{PCIE_CWAKE}"
+		(at 245.11 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b53dd4e-a80b-49a2-9880-1cdc7e4c9857")
+	)
 	(label "PCIE_RX0+"
 		(at 95.25 49.53 180)
 		(fields_autoplaced yes)
@@ -8198,6 +8209,17 @@
 			(justify left bottom)
 		)
 		(uuid "635537b3-6410-4474-b205-3f8281ed652d")
+	)
+	(label "~{PCIE_CPRSNT}"
+		(at 245.11 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64e31843-fca6-4d98-b59f-a37ebc821d0e")
 	)
 	(label "JOB_GPIO07"
 		(at 185.42 81.28 0)
@@ -8298,17 +8320,6 @@
 		)
 		(uuid "afb307b8-83e4-4998-a4c2-ff1d836eb837")
 	)
-	(label "~{PCIE_CWAKE}"
-		(at 245.11 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b02470f8-8748-4e3a-ad1f-6b82fa32a7ac")
-	)
 	(label "JOB_GPIO09"
 		(at 185.42 78.74 0)
 		(fields_autoplaced yes)
@@ -8363,17 +8374,6 @@
 			(justify left bottom)
 		)
 		(uuid "c4bfef7d-a8c3-4cd9-9037-631d206b1536")
-	)
-	(label "~{PCIE_CPRSNT}"
-		(at 245.11 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cabb0aa1-5bec-464f-9154-c3b478e677f3")
 	)
 	(label "I2C_SCL"
 		(at 128.27 45.72 0)
@@ -9153,119 +9153,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
-		(at 106.68 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "339f437e-1931-42a8-b5d8-03552ba19e0b")
-		(property "Reference" "TP4"
-			(at 99.06 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TP_1.5mm_SMD"
-			(at 91.44 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_1.5mm"
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point, SMT"
-			(at 106.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 106.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 106.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 91.44 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 91.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c293d32-9aeb-4147-a5a7-13baf62a1d20")
-		)
-		(instances
-			(project "antmicro-job-oculink-expansion"
-				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 198.12 92.71 90)
 		(unit 1)
@@ -9467,118 +9354,6 @@
 			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTestPoints:TP_1.5mm_SMD")
-		(at 106.68 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fdad907-a6ca-4b08-ba45-83d02e0be3f2")
-		(property "Reference" "TP3"
-			(at 100.838 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TP_1.5mm_SMD"
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_1.5mm"
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point, SMT"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 91.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 91.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d64f4c59-f511-462b-9285-2ebb920edf46")
-		)
-		(instances
-			(project "antmicro-job-oculink-expansion"
-				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
