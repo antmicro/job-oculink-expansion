@@ -10914,7 +10914,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:antmicro_logo")
-		(at 48.26 185.42 0)
+		(at 45.72 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10923,7 +10923,7 @@
 		(fields_autoplaced yes)
 		(uuid "661bc0d3-8384-4602-af74-b3fef330eabb")
 		(property "Reference" "N2"
-			(at 54.61 183.4362 0)
+			(at 52.07 183.4362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,7 +10933,7 @@
 			)
 		)
 		(property "Value" "antmicro_logo"
-			(at 54.61 185.9762 0)
+			(at 52.07 185.9762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10943,7 +10943,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:antmicro-logo_scaled_15mm"
-			(at 63.5 195.58 0)
+			(at 60.96 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10954,7 +10954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 198.12 0)
+			(at 60.96 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10965,7 +10965,7 @@
 			)
 		)
 		(property "Description" "Mechanical part"
-			(at 48.26 185.42 0)
+			(at 45.72 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,7 +10974,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 48.26 185.42 0)
+			(at 45.72 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10982,7 +10982,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 63.5 205.74 0)
+			(at 60.96 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10993,7 +10993,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 63.5 200.66 0)
+			(at 60.96 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +11004,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 63.5 203.2 0)
+			(at 60.96 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13558,6 +13558,117 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroMechanicalParts:oshw_logo")
+		(at 25.4 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b45f936a-6d4f-46f4-8493-b41f5f9cfe92")
+		(property "Reference" "N3"
+			(at 31.75 191.0562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "oshw_logo"
+			(at 31.75 193.5962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:oshw-logo"
+			(at 40.64 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mechanical part"
+			(at 25.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 40.64 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 40.64 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 25.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 40.64 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "antmicro-job-oculink-expansion"
+				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
+					(reference "N3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 214.63 129.54 0)
 		(mirror y)
@@ -14050,6 +14161,117 @@
 			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:antmicro_logo")
+		(at 45.72 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec33087c-aade-4bfb-8b1d-f1247a447f1b")
+		(property "Reference" "N4"
+			(at 52.07 191.0562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "antmicro_logo"
+			(at 52.07 193.5962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:antmicro-logo_scaled_15mm"
+			(at 60.96 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mechanical part"
+			(at 45.72 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 45.72 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 60.96 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 60.96 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "antmicro-job-oculink-expansion"
+				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
+					(reference "N4")
 					(unit 1)
 				)
 			)
