@@ -7,7 +7,7 @@
 	(title_block
 		(title "Jetson Orin Baseboard OCuLink Expansion")
 		(date "2025-03-18")
-		(rev "1.0.0")
+		(rev "1.1.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
