@@ -13368,7 +13368,7 @@
 		)
 		(uuid "2f1c6dc7-3676-40fb-9b3e-8932dcc36770")
 	)
-	(label "~{PCIE_CWAKE}"
+	(label "~{CPRSNT}"
 		(at 273.05 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13808,7 +13808,7 @@
 		)
 		(uuid "c4bfef7d-a8c3-4cd9-9037-631d206b1536")
 	)
-	(label "~{PCIE_CWAKE}"
+	(label "~{CPRSNT}"
 		(at 149.86 232.41 0)
 		(fields_autoplaced yes)
 		(effects
