@@ -13188,7 +13188,7 @@
 		(uuid "0103085a-564a-4f3a-8147-74186c0f4c54")
 	)
 	(label "PCIE_{O}_TX1-"
-		(at 273.05 73.66 180)
+		(at 273.05 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13265,7 +13265,7 @@
 		(uuid "1a564253-fe6f-45e4-b7d7-d33a9b359391")
 	)
 	(label "PCIE_{I}_TX0+"
-		(at 186.69 63.5 0)
+		(at 186.69 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13276,7 +13276,7 @@
 		(uuid "250849a3-88b2-4030-82f6-c92f079e81f8")
 	)
 	(label "PCIE_{O}_RX0+"
-		(at 236.22 201.93 180)
+		(at 236.22 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13320,7 +13320,7 @@
 		(uuid "2ad4ff03-3cdb-437a-8e20-3a1527742a19")
 	)
 	(label "PCIE_{I}_RX0+"
-		(at 149.86 201.93 0)
+		(at 149.86 212.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13375,7 +13375,7 @@
 		(uuid "3ba146a8-3a40-4cae-8046-5d74d68aaa9e")
 	)
 	(label "PCIE_{I}_TX1-"
-		(at 186.69 73.66 0)
+		(at 186.69 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13386,7 +13386,7 @@
 		(uuid "3f4c741b-0651-4fc4-84b4-60f7ebdb0264")
 	)
 	(label "PCIE_{I}_RX0-"
-		(at 149.86 204.47 0)
+		(at 149.86 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13452,7 +13452,7 @@
 		(uuid "64e31843-fca6-4d98-b59f-a37ebc821d0e")
 	)
 	(label "PCIE_{I}_RX1+"
-		(at 149.86 209.55 0)
+		(at 149.86 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13463,7 +13463,7 @@
 		(uuid "69a5ba65-945f-4ffc-8826-9d82539979fb")
 	)
 	(label "PCIE_{I}_C.RX1+"
-		(at 182.88 209.55 0)
+		(at 182.88 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13474,7 +13474,7 @@
 		(uuid "6a968141-cec3-48c6-b52d-1fdb47c22d10")
 	)
 	(label "PCIE_{O}_C.TX0+"
-		(at 240.03 63.5 180)
+		(at 240.03 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13496,7 +13496,7 @@
 		(uuid "6e5a4dc2-62cc-40a6-9873-db932dda786c")
 	)
 	(label "PCIE_{O}_TX0+"
-		(at 273.05 63.5 180)
+		(at 273.05 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13507,7 +13507,7 @@
 		(uuid "6eaea6e8-8442-4895-b228-2e57253b7ad5")
 	)
 	(label "PCIE_{I}_RX1-"
-		(at 149.86 212.09 0)
+		(at 149.86 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13551,7 +13551,7 @@
 		(uuid "7a18038e-cb48-4b2b-9f99-4b2b7168f8d1")
 	)
 	(label "PCIE_{O}_RX1-"
-		(at 236.22 212.09 180)
+		(at 236.22 201.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13562,7 +13562,7 @@
 		(uuid "7ecb0921-69e0-4b4e-8c66-09cb0b598683")
 	)
 	(label "PCIE_{O}_C.TX0-"
-		(at 240.03 66.04 180)
+		(at 240.03 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13606,7 +13606,7 @@
 		(uuid "906b869b-f359-4b62-84df-cb67608525fe")
 	)
 	(label "PCIE_{I}_C.RX0+"
-		(at 182.88 201.93 0)
+		(at 182.88 212.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13650,7 +13650,7 @@
 		(uuid "a4af719d-fea0-41b7-acf2-eb0c16a78d12")
 	)
 	(label "PCIE_{O}_RX1+"
-		(at 236.22 209.55 180)
+		(at 236.22 204.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13727,7 +13727,7 @@
 		(uuid "b5a0ca8e-f747-4d3a-802a-5a69635c44c0")
 	)
 	(label "PCIE_{I}_TX0-"
-		(at 186.69 66.04 0)
+		(at 186.69 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13771,7 +13771,7 @@
 		(uuid "bd1091c8-c507-4c48-8e63-6818d6676529")
 	)
 	(label "PCIE_{O}_C.TX1-"
-		(at 240.03 73.66 180)
+		(at 240.03 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13837,7 +13837,7 @@
 		(uuid "d796550b-007b-474d-bda5-6c1822a0f9a5")
 	)
 	(label "PCIE_{O}_TX1+"
-		(at 273.05 71.12 180)
+		(at 273.05 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13848,7 +13848,7 @@
 		(uuid "dc320ee8-0f2c-42a2-a7d1-937a458faffd")
 	)
 	(label "PCIE_{O}_RX0-"
-		(at 236.22 204.47 180)
+		(at 236.22 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13914,7 +13914,7 @@
 		(uuid "e641f8b6-261e-405b-90d2-3faf175fbd59")
 	)
 	(label "PCIE_{O}_C.TX1+"
-		(at 240.03 71.12 180)
+		(at 240.03 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13925,7 +13925,7 @@
 		(uuid "e6ed34d4-02f8-407f-99db-9462ce699f27")
 	)
 	(label "PCIE_{O}_TX0-"
-		(at 273.05 66.04 180)
+		(at 273.05 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13969,7 +13969,7 @@
 		(uuid "eef9b7f0-9d08-4d32-aef6-000c6460381e")
 	)
 	(label "PCIE_{I}_C.RX0-"
-		(at 182.88 204.47 0)
+		(at 182.88 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13980,7 +13980,7 @@
 		(uuid "f25837a7-0200-43e9-8ca2-5843bf4dbf25")
 	)
 	(label "PCIE_{I}_C.RX1-"
-		(at 182.88 212.09 0)
+		(at 182.88 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14002,7 +14002,7 @@
 		(uuid "faa4ace9-a012-4c02-932f-ebc845174660")
 	)
 	(label "PCIE_{I}_TX1+"
-		(at 186.69 71.12 0)
+		(at 186.69 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
