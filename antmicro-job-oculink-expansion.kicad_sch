@@ -22668,7 +22668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:antmicro-logo"
+		(property "Footprint" "antmicro-footprints:antmicro-logo_scaled_15mm"
 			(at 60.96 273.05 0)
 			(effects
 				(font
@@ -33867,7 +33867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:antmicro-logo"
+		(property "Footprint" "antmicro-footprints:antmicro-logo_scaled_15mm"
 			(at 60.96 280.67 0)
 			(effects
 				(font
