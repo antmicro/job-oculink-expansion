@@ -13143,7 +13143,7 @@
 		)
 		(uuid "1579d247-6943-4768-a9f5-0c08d3ef7f07")
 	)
-	(text "FR4 loss ~= 7.9dB/m/GHz; \n31.6 dB/m @ 4GHz\nJOB avg PCIe0 TX trace length ~= 77.3 mm\nJOB connector to redriver trace length ~= ?? mm\nfor ??? mm loss = ?.? dB\nEQ[2:0] = 3'b011 gives 4.8 dB EQ @ 4 GHz\nFG[1:0] = 2'b10 for -0.5 dB (aiming for 0dB)\nSW1 = 1 for 1200 mVp-p swing"
+	(text "FR4 loss ~= 7.9dB/m/GHz; \n31.6 dB/m @ 4GHz\nJOB avg PCIe2 TX trace length ~= 51.0 mm\nJOB connector to redriver trace length ~= 60.7 mm\nfor 111.7 mm loss = 3.53 dB\nEQ[2:0] = 2'b010 gives 3.9 dB EQ @ 4 GHz\nFG[1:0] = 2'b10 for -0.5 dB (aiming for 0dB)\nSW1 = 1 for 1200 mVp-p swing"
 		(exclude_from_sim no)
 		(at 98.552 129.794 0)
 		(effects
@@ -13154,7 +13154,7 @@
 		)
 		(uuid "8586ab08-5fd4-4372-ab32-15f30118b646")
 	)
-	(text "FR4 loss ~= 7.9dB/m/GHz; \n31.6 dB/m @ 4GHz\nOCuLink 1m cable loss ~= 6.0 dB @ 4.5 GHz\nOCuLink connector to redriver trace length ~= ?? mm\nfor ??? mm loss = ?.? dB\nEQ[2:0] = 3'b011 gives 4.8 dB EQ @ 4 GHz\nFG[1:0] = 2'b10 for -0.5 dB (aiming for 0dB)\nSW1 = 1 for 1200 mVp-p swing"
+	(text "FR4 loss ~= 7.9dB/m/GHz; \n31.6 dB/m @ 4GHz\nOCuLink 1m cable loss ~= 6.0 dB @ 4.5 GHz\nOCuLink connector to redriver trace length ~= 47.5 mm\nfor 47.5 mm loss = 1.5 dB\n6.0 dB + 1.5 dB = 7.5 dB\nEQ[2:0] = 6'b110 gives 7.8 dB EQ @ 4 GHz\nFG[1:0] = 2'b10 for -0.5 dB (aiming for 0dB)\nSW1 = 1 for 1200 mVp-p swing"
 		(exclude_from_sim no)
 		(at 98.806 248.92 0)
 		(effects
@@ -18069,7 +18069,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "34110a83-a62a-4ef2-b188-0ed8a018754c")
 		(property "Reference" "R19"
 			(at 149.86 134.62 0)
@@ -19339,7 +19339,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3ed34ca1-cded-4119-869a-359adb7030b8")
 		(property "Reference" "R9"
 			(at 265.43 273.05 0)
@@ -23686,7 +23686,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6bf4b400-eca9-4a52-b22b-5fd5b82a3752")
 		(property "Reference" "R8"
 			(at 265.43 236.22 0)
@@ -24665,7 +24665,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "73728185-df2d-4827-a339-8105652850b1")
 		(property "Reference" "R4"
 			(at 270.51 236.22 0)
@@ -26361,7 +26361,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "869c4e67-5091-430b-9871-4165cccfedf8")
 		(property "Reference" "R5"
 			(at 270.51 273.05 0)
@@ -32819,7 +32819,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ce944b8c-6c5f-4ac1-9fa5-257e028438f5")
 		(property "Reference" "R17"
 			(at 149.86 97.79 0)
