@@ -7143,6 +7143,12 @@
 		(uuid "539b1bc5-c863-4eaf-90ae-f069a9a4b490")
 	)
 	(junction
+		(at 327.66 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "579b972b-0fa2-48f9-90a6-b689662fa91c")
+	)
+	(junction
 		(at 57.15 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7179,12 +7185,6 @@
 		(uuid "5ebb067f-7e00-4d26-962e-4be8af604f5d")
 	)
 	(junction
-		(at 340.36 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60f22113-54a0-4cf5-9dd9-20adf1cefec3")
-	)
-	(junction
 		(at 73.66 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7195,6 +7195,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61f78fd2-29b8-4ee3-83c4-0473d54a7327")
+	)
+	(junction
+		(at 327.66 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62b312dc-8297-459a-b1ce-9f18c5bd67d9")
 	)
 	(junction
 		(at 157.48 99.06)
@@ -8900,6 +8906,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 45.72) (xy 344.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9d1da5-d928-4dd1-ab18-69f41254b704")
+	)
+	(wire
+		(pts
 			(xy 149.86 130.81) (xy 149.86 133.35)
 		)
 		(stroke
@@ -9370,7 +9386,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 43.18) (xy 344.17 43.18)
+			(xy 327.66 43.18) (xy 344.17 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9687,16 +9703,6 @@
 			(type default)
 		)
 		(uuid "6ba692b1-a8fe-4a9b-b5be-ed2cc1f517c5")
-	)
-	(wire
-		(pts
-			(xy 327.66 43.18) (xy 340.36 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bab3d89-90da-41b2-a9a3-65000fc4a758")
 	)
 	(wire
 		(pts
@@ -10880,6 +10886,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 45.72) (xy 327.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba55599-f9c6-4871-a110-98212055c970")
+	)
+	(wire
+		(pts
 			(xy 252.73 63.5) (xy 273.05 63.5)
 		)
 		(stroke
@@ -11390,16 +11406,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 45.72) (xy 340.36 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d16d6a8e-656e-4c52-9c24-602a38b7de8f")
-	)
-	(wire
-		(pts
 			(xy 193.04 87.63) (xy 193.04 93.98)
 		)
 		(stroke
@@ -11437,16 +11443,6 @@
 			(type default)
 		)
 		(uuid "d3e756dd-4aef-441f-b726-15a84e487391")
-	)
-	(wire
-		(pts
-			(xy 344.17 45.72) (xy 340.36 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d40f18d6-97f6-4546-88ba-3dcc7ded8379")
 	)
 	(wire
 		(pts
@@ -17762,6 +17758,73 @@
 			(project "antmicro-job-oculink-expansion"
 				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 327.66 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d2fff87-b9ef-44d2-a543-e15ca93b9db3")
+		(property "Reference" "#FLG05"
+			(at 325.755 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 323.85 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feefd475-1012-4a02-be2c-d252761e8245")
+		)
+		(instances
+			(project ""
+				(path "/195f80bc-f1ce-461e-9433-be011ba7464b"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
