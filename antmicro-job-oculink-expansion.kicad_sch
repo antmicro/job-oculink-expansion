@@ -14426,6 +14426,17 @@
 		)
 		(uuid "1579d247-6943-4768-a9f5-0c08d3ef7f07")
 	)
+	(text "ISET resistor values (R46, R48):\ntarget current limit = 0.5 A (max OCuLink pin current)\nAP22615 datasheet, page 3, ISET pin description\nI_{LIM} (A) = 6800 / R_{LIM} (Ohms)\n0.5 A = 6800 / R_{LIM} Ohms\nR_{LIM} = 6800 / 0.5 = 13600 Ohms ~= 14 kOhms\nreal current limit ~= 0.485 A"
+		(exclude_from_sim no)
+		(at 256.54 192.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "466f73da-b99a-4096-931d-39e3249415f0")
+	)
 	(text "OCuLink e-fuses"
 		(exclude_from_sim no)
 		(at 262.89 103.632 0)
