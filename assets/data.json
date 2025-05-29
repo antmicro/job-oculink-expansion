@@ -4,13 +4,17 @@
         "yageo-cc0402mrx5r5bb106",
         "murata-grm155r61h104ke14d",
         "yageo-cc0402krx5r6bb224",
+        "murata-grm21br60j107me15l",
         "amphenol-g14a421211112hr",
         "samtec-erm8-040-05-0-l-dv-k-tr",
         "panasonic-erj2ge0r00x",
         "bourns-cr0402-fx-1002glf",
         "bourns-cr0402-fx-1001glf",
+        "bourns-cr0402-fx-5601glf",
+        "bourns-cr0402-fx-1132glf",
         "analog-devices-max3373eeka",
-        "diodes-incorporated-pi3eqx16904glzhex"
+        "diodes-incorporated-pi3eqx16904glzhex",
+        "diodes-incorporated-ap22615awu-7"
     ],
     "stackup": {
         "layers": [
