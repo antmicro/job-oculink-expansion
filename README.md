@@ -1,4 +1,4 @@
-# Jetson Orin Baseboard OCuLink Expansion
+# Jetson Orin Baseboard OCuLink Expansion Board
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
@@ -10,9 +10,9 @@ This board is a PCIe to OCuLink adapter that connects to the expansion port on t
 
 ## Key features
 
-- Compatible with the Jetson Orin Baseboard
+- Compatible with the [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard)
 - Exposes 2 lanes of PCIe via an OCuLink connector
-- Provides auxilliary PCIe signals 
+- Provides auxiliary PCIe signals
 
 ## Project structure
 
@@ -21,11 +21,6 @@ directories:
 
 -   `img` - contains graphics for this README
 -   `doc` - contains schematics in PDF format
-
-
-## Setup
-
-![](img/OCuLink-expansion-setup.jpg)
 
 ## Licensing
 
