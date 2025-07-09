@@ -1,5 +1,5 @@
 {
-    "id": "antmicro-job-oculink-expansion",
+    "id": "jetson-orin-baseboard-oculink-expansion",
     "componentIds": [
         "yageo-cc0402mrx5r5bb106",
         "murata-grm155r61h104ke14d",

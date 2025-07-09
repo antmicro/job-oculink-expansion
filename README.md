@@ -2,7 +2,7 @@
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
-![](img/antmicro-job-oculink-expansion.png)
+![](img/jetson-orin-baseboard-oculink-expansion.png)
 
 ## Overview
 
