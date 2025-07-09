@@ -6,7 +6,7 @@ Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This board is a PCIe to OCuLink adapter that connects to the expansion port on the Jetson Orin Baseboard, allowing the connection of PCIe devices via the OCuLink interface.
+This board is a PCIe to OCuLink adapter that connects to the expansion port on the Jetson Orin Baseboard, allowing PCIe devices to be connected via the OCuLink interface.
 
 ## Key features
 
